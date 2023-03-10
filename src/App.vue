@@ -1,18 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  
+  <NavC/>
+  <!-- <CardColect/> -->
+  <ChatC/>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import CardColect from './components/CardColect.vue'
+import NavC from './components/NavC.vue'
+import ChatC from '../src/components/ChatC.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavC, 
+    ChatC,
+    //CardColect
   }
 }
+
 </script>
+
 
 <style>
 #app {
@@ -20,7 +30,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #49749e;
   margin-top: 60px;
+  background-color: #091622;
 }
 </style>
